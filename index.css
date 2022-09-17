@@ -1,0 +1,113 @@
+html,
+body {
+	background: #e1e0e0;
+	font-family: "Source Sans Pro", sans-serif;
+	color: #000000;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.post-container {
+	background: #fff;
+	width: 375px;
+}
+
+nav {
+	border-bottom: 1px solid #c6c6c6;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.logo,
+.user-avatar {
+	margin: 17px 15px;
+}
+
+.logo {
+	width: 127px;
+}
+
+.user-avatar,
+.post-avatar {
+	width: 34px;
+	height: 34px;
+	border-radius: 50%;
+}
+
+header {
+	display: flex;
+	justify-content: start;
+}
+
+.post-avatar {
+	margin: 10px 7px 10px 10px;
+}
+
+.bold-text {
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 16px;
+}
+
+.regular-text {
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+}
+
+h1 {
+	margin: 11px 0 0;
+}
+
+p {
+	margin: 0;
+}
+
+img {
+	width: 375px;
+	margin: 0;
+}
+
+.icons {
+	display: flex;
+	margin: 12px 0 12px 13px;
+}
+
+.like-icon,
+.comment-icon,
+.message-icon {
+	width: 24px;
+	transition: 1s ease;
+}
+
+.like-icon:hover,
+.like-icon:active,
+.comment-icon:hover,
+.comment-icon:active,
+.message-icon:hover,
+.message-icon:active {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	transition: 1s ease;
+	cursor: pointer;
+}
+
+.like-icon,
+.comment-icon {
+	margin: 0 15px 0 0;
+}
+
+.post-comment {
+	display: flex;
+	margin: 12px 0 16px 13px;
+}
+
+.bold-text span {
+	margin: 0 4px 0 0;
+}
